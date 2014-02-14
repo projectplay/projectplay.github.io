@@ -11,14 +11,22 @@
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
 
 	<style>
-		.header{ margin:0 0 30px; }
-		p.flag { font-size:32px; font-weight: bold; background: #59b8de; padding: 10px; margin: 15px; color: white; }
-		.social { margin: 10px;}
-		.jumbotron { text-align: center; }
+		body { background: #333; margin: 0px;}
+
+		.header{ margin:0 0 20px; }
+		p.flag { font-size: 24px; font-weight: bold; background: #59b8de; color: #fff; padding: 10px; margin: 15px; border-radius: 4px; }
+		.social { margin: 40px 0 0;}
+		.jumbotron { padding-top: 25px; text-align: center; background: #888; color: rgb(221, 221, 221); }
 		.jumbotron .logo { margin: auto; }
+		.lead { text-align: left}
+		.container { padding: 0; }
+		.container .jumbotron { border-radius: 0 }
 
 		@media (min-width: 768px) {
-			.container { max-width: 730px; }
+			body { margin: 40px; }
+			.container { max-width: 730px;}
+			.container .jumbotron { border-radius: 6px; }
+			p.flag { font-size: 42px; }
 		}
 	</style>
 
@@ -26,21 +34,22 @@
 </head>
 <body>
 	<div class='container'>
-		<div class="header">
+		<!-- <div class="header">
 			<ul class='nav nav-pills pull-right'>
-				<li class='active'><a href='#'>Home</a></li>
-				<li><a href='#'>Nav</a></li>
-				<li><a href='#'>Nav</a></li>
+				<li><a href='#'>Who We've Helped</a></li>
+				<li><a href='#'>What is Project Play?</a></li>
 			</ul>
 			<h3 class='text-muted'>Project Play</h3>
-		</div>
+		</div> -->
 
 		<div class="jumbotron">
 
 			<img class='img-responsive logo' src='http://projectplay.ca/wp-content/uploads/2013/08/PP-Logo-Web-300.png' />
 
-			<p class="lead">Some great content describing how great we are. Award winners! Clearly, this is not the actual content. Help us give the gift of play!</p>
-			<p class='flag'>Sunday November 23th, 2014</p>
+			<p class='flag'>Sunday, November 23th</p>
+			<br/>
+			<p class="lead">2014's Project Play date has been announced! Join us on Sunday, November 23 at the Western Fair Grounds. We're taking over the Carousel Room and Yuk Yuks for more play than you can fit into a single day!</p>
+
 			<section class=social>
 				<div class='row'>
 					<div class='col-xs-6'>
@@ -51,7 +60,11 @@
 					</div>
 				</div>
 			</section>
+
+
 		</div>
+
+
 	</div>
 </body>
 </html>
