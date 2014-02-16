@@ -1,70 +1,26 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Project Play
+---
+{% assign post = site.posts.first %}
 
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Project Play</title>
-
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-
-	<style>
-		body { background: #333; margin: 0px;}
-
-		.header{ margin:0 0 20px; }
-		p.flag { font-size: 24px; font-weight: bold; background: #59b8de; color: #fff; padding: 10px; margin: 15px; border-radius: 4px; }
-		.social { margin: 40px 0 0;}
-		.jumbotron { padding-top: 25px; text-align: center; background: #888; color: rgb(221, 221, 221); }
-		.jumbotron .logo { margin: auto; }
-		.lead { text-align: left}
-		.container { padding: 0; }
-		.container .jumbotron { border-radius: 0 }
-
-		@media (min-width: 768px) {
-			body { margin: 40px; }
-			.container { max-width: 730px;}
-			.container .jumbotron { border-radius: 6px; }
-			p.flag { font-size: 42px; }
-		}
-	</style>
-
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-	<div class='container'>
-		<!-- <div class="header">
-			<ul class='nav nav-pills pull-right'>
-				<li><a href='#'>Who We've Helped</a></li>
-				<li><a href='#'>What is Project Play?</a></li>
-			</ul>
-			<h3 class='text-muted'>Project Play</h3>
-		</div> -->
-
-		<div class="jumbotron">
-
-			<img class='img-responsive logo' src='http://projectplay.ca/wp-content/uploads/2013/08/PP-Logo-Web-300.png' />
+<div class="jumbotron">	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+				<img class='img-responsive logo' src='img/pp-logo-300.png' />
+			</div>
 
 			<p class='flag'>Sunday, November 23th</p>
-			<br/>
-			<p class="lead">2014's Project Play date has been announced! Join us on Sunday, November 23 at the Western Fair Grounds. We're taking over the Carousel Room and Yuk Yuks for more play than you can fit into a single day!</p>
-
-			<section class=social>
-				<div class='row'>
-					<div class='col-xs-6'>
-						<a href='https://www.facebook.com/ProjectPlayLondon'><img src='img/facebook-badge.png' /></a>
-					</div>
-					<div class='col-xs-6'>
-						<a href='https://twitter.com/projectplayldn'><img src='img/twitter-badge.png' /></a>
-					</div>
+			<section class="social col-sm-6 col-xs-12">
+				<div class="col-xs-3 col-xs-offset-3">
+					<a href='https://www.facebook.com/ProjectPlayLondon'><img class='img-responsive' src='img/facebook-badge.png' /></a>
+				</div>					
+				<div class="col-xs-3">					
+					<a href='https://twitter.com/projectplayldn'><img class='img-responsive' src='img/twitter-badge.png' /></a>
 				</div>
 			</section>
-
-
 		</div>
-
-
+		{{post.content}}
 	</div>
-</body>
-</html>
+</div>

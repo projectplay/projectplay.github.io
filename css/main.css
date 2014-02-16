@@ -1,0 +1,21 @@
+body { margin: 0px;}
+p.flag { clear: both; font-size: 16px; margin: 20px 0; font-weight: bold; background: #F1592A; color: #fff; padding: 15px; border-radius: 4px; }
+.social { margin-bottom: 20px; padding: 10px; border-radius: 4px;}
+.jumbotron { padding-top: 15px; text-align: center; background: #57B7DF; color: #fff; }
+.jumbotron .logo { margin: auto; margin-bottom: 14px; }
+.lead { text-align: left}
+.container { padding: 0; }
+.container .jumbotron { border-radius: 0 }
+
+.navbar { margin-bottom: 0;}
+
+@media (min-width: 992px) {
+	p.flag { font-size: 34px; padding: 25px; }
+}
+
+@media (min-width: 768px) {
+	.container { max-width: 730px; }
+	.container .jumbotron { border-radius: 6px; }
+	p.flag { clear: none; font-size: 24px; padding: 20px; }
+	.social { margin: 45px 0 0; background: rgba(0,0,0, 0.06); }
+}
