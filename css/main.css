@@ -1,13 +1,16 @@
-body { margin: 0px;}
-p.flag { clear: both; font-size: 16px; margin: 20px 0; font-weight: bold; background: #F1592A; color: #fff; padding: 15px; border-radius: 4px; }
-.social { margin-bottom: 20px; padding: 10px; border-radius: 4px;}
+body { margin: 0px; background: #eee;}
+p.flag { clear: both; font-size: 16px; margin: 20px 0; font-weight: bold; background: #F1592A; color: #fff; padding: 15px; border-radius: 4px; font-weight: bold; }
+.social { margin-bottom: 20px; padding: 10px; border-radius: 4px; }
+
 .jumbotron { padding-top: 15px; text-align: center; background: #57B7DF; color: #fff; }
 .jumbotron .logo { margin: auto; margin-bottom: 14px; }
-.lead { text-align: left}
+.jumbotron.slim { padding: 4px; text-align: left; border-bottom: 4px solid #F1592A; }
+
+.lead { text-align: left; }
 .container { padding: 0; }
 .container .jumbotron { border-radius: 0 }
 
-.navbar { margin-bottom: 0;}
+.navbar { margin-bottom: 0; min-height: 40px; }
 
 @media (min-width: 992px) {
 	p.flag { font-size: 34px; padding: 25px; }

@@ -1,0 +1,3 @@
+name: Project Play Site
+markdown: redcarpet
+permalink: /news/:title
