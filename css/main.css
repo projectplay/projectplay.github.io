@@ -1,24 +1,11 @@
-body { margin: 0px; background: #eee;}
-p.flag { clear: both; font-size: 16px; margin: 20px 0; font-weight: bold; background: #F1592A; color: #fff; padding: 15px; border-radius: 4px; font-weight: bold; }
-.social { margin-bottom: 20px; padding: 10px; border-radius: 4px; }
+body { margin: 0px; background: #fff; }
 
-.jumbotron { padding-top: 15px; text-align: center; background: #57B7DF; color: #fff; }
-.jumbotron .logo { margin: auto; margin-bottom: 14px; }
-.jumbotron.slim { padding: 4px; text-align: left; border-bottom: 4px solid #F1592A; }
-
-.lead { text-align: left; }
-.container { padding: 0; }
+.container { padding: 0; background:#eee; }
 .container .jumbotron { border-radius: 0 }
 
 .navbar { margin-bottom: 0; min-height: 40px; }
 
-@media (min-width: 992px) {
-	p.flag { font-size: 34px; padding: 25px; }
-}
-
-@media (min-width: 768px) {
-	.container { max-width: 730px; }
-	.container .jumbotron { border-radius: 6px; }
-	p.flag { clear: none; font-size: 24px; padding: 20px; }
-	.social { margin: 45px 0 0; background: rgba(0,0,0, 0.06); }
-}
+.stage_1 { background: #D1D1D1; }
+.stage_2 { background: #BCBCBC; }
+.stage_3 { background: #A7A7A7; }
+.stage_4 { background: #939393; }
