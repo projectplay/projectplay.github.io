@@ -3,11 +3,11 @@ body { margin: 0px; background: #fff; }
 .container { padding: 0; background: #00AEEF; }
 .container .jumbotron { border-radius: 0 }
 
-.stage_1 { background: #8DC63F; }
-.navbar { margin-bottom: 0; min-height: 40px; }
+.navbar { margin-bottom: 0; min-height: 40px; font-size: 1.11em; }
 
 .navbar .container { background: #00AEEF;}
 
+.stage_1 { background: #D1D1D1; }
 .stage_2 { background: #0E76BC; }
 .stage_3 { background: #ED1D56; }
 .stage_4 { background: #17ABB4; }
