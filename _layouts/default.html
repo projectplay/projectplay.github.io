@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{{ page.title }}</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ page.title }}</title>
 
-		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="/css/main.css">
-	</head>
 
-	<body id='front'>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-		<div class="container">
-		<nav class="navbar navbar-default" role="navigation">
+	<link href='http://fonts.googleapis.com/css?family=Muli:300,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body id='front'>
+
+	<div class="container">
+		<nav class="navbar" role="navigation">
 			<div class="container">
 				<div class='navbar-header'>
-					<h4><a href="/" class='text-muted'>Contact Us</a></h4>
+					<a href="#" class=''>Contact Us</a>
 				</div>
 				<div class="navbar">
 					<ul class='nav navbar-nav navbar-right'>
-						<li><a href='//facebook.com/projectplaylondon' target='_blank'><i class='fa fa-fw fa-lg fa-facebook-square'></i></a></li>
-						<li><a href='//twitter.com/projectplayldn' target='_blank'><i class='fa fa-fw fa-lg fa-twitter-square'></i></a></li>
-						<li><a href='//instagram.com/projectplayldn' target='_blank'><i class='fa fa-fw fa-lg fa-instagram'></i></a></li>
+						<li>
+							<a href='//facebook.com/projectplaylondon' target='_blank'>
+								<span class='fa-stack'>
+									<i class='fa fa-circle fa-stack-2x'></i>
+									<i class='fa fa-fw fa-stack-1x fa-inverse fa-facebook'></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href='//twitter.com/projectplayldn' target='_blank'>
+								<span class='fa-stack'>
+									<i class='fa fa-circle fa-stack-2x'></i>
+									<i class='fa fa-fw fa-twitter fa-stack-1x fa-inverse'></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href='//instagram.com/projectplayldn' target='_blank'>
+								<span class='fa-stack'>
+									<i class='fa fa-circle fa-stack-2x'></i>
+									<i class='fa fa-fw fa-stack-1x fa-inverse fa-instagram'></i>
+								</span>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -33,13 +57,7 @@
 		{{ content }}
 
 		<footer>
-			<div class="stage_1 text-center">
-				<div class='row'>
-					<div class="col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5">
-						<img class='img-responsive logo' src='/img/pp-logo-300.png' />
-					</div>
-				</div>
-
+			<div class="text-center">
 				<p><strong>@2014 Project Play</strong></p>
 				<a href='#'>Exhibit</a> | <a href='#'>Sponsor</a> | <a href='#'>Volunteer</a> | <a href='#'>Contact</a> | <a href='#'>Press Info</a> | <a href='#'>FAQ</a>
 				<br /><br />
@@ -48,7 +66,7 @@
 		</footer>
 	</div>
 
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script async src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-	</body>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script async src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</body>
 </html>

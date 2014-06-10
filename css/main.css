@@ -1,17 +1,25 @@
-body { margin: 0px; background: #fff; }
+body { margin: 0px; background: #fff; font-family: 'Muli', sans-serif; font-weight: 300; }
+footer { background: #283891; padding: 0 0 80px; }
+footer a, footer a:visited { color: white; text-decoration: none; }
+footer a:hover { color: white; text-decoration: underline; }
+
 
 .container { padding: 0; background: #00AEEF; }
 .container .jumbotron { border-radius: 0 }
 
-.navbar { margin-bottom: 0; min-height: 40px; font-size: 1.11em; }
-
+.navbar { margin-bottom: 0; min-height: 40px; }
 .navbar .container { background: #00AEEF;}
+.nav>li>a:hover, .nav>li>a:focus { background: none;}
+.navbar-header a { color: black; font-weight: 400;}
 
-.stage_1 { background: #D1D1D1; }
+.stage_1 { background: #8DC63F; }
 .stage_2 { background: #0E76BC; }
 .stage_3 { background: #ED1D56; }
 .stage_4 { background: #17ABB4; }
 
-body#front { color: white; }
+body#front { color: white; font-size: 1.8em; }
+
+#front p { line-height: 1.3em; font-size: 1.2em; }
+.ticket-info { padding: 10px; background: #111; color: #fff; }
 
 .logo { width: 100% ;}
