@@ -1,4 +1,4 @@
-body { margin: 0px; background: #fff; font-family: 'Muli', sans-serif; font-weight: 300; }
+body { margin: 0px; background: #222; font-family: 'Muli', sans-serif; font-weight: 300; }
 footer { background: #283891; padding: 0 0 80px; }
 footer a, footer a:visited { color: white; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
@@ -12,14 +12,24 @@ footer a:hover { color: white; text-decoration: underline; }
 .nav>li>a:hover, .nav>li>a:focus { background: none;}
 .navbar-header a { color: black; font-weight: 400;}
 
-.stage_1 { background: #8DC63F; }
-.stage_2 { background: #0E76BC; }
-.stage_3 { background: #ED1D56; }
-.stage_4 { background: #17ABB4; }
+.stage_1 { background: #8DC63F; padding: 0 0 50px 0; }
+.stage_2 { background: #0E76BC; padding: 0 0 50px 0; }
+.stage_3 { background: #ED1D56; padding: 0 0 50px 0; }
+.stage_4 { background: #17ABB4; padding: 0 0 50px 0; }
 
-body#front { color: white; font-size: 1.8em; }
+div.front { color: white; font-size: 1.8em; }
+.front h1 { margin: 25px; }
+.front h3 { margin: 15px; }
+
+.dropdown .dropdown-toggle { background: #222; padding: 10px; margin: 5px 5px -5px 5px; }
+.dropdown .dropdown-toggle:hover, .dropdown .dropdown-toggle:focus { background: #222; color: #fff; }
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus { background: #222; color: #fff; }
+ul.dropdown-menu { margin:0 0 0 5px; background: #222; }
+ul.dropdown-menu a { color: #fff; }
+
+.navbar-right { float: right; }
 
 #front p { line-height: 1.3em; font-size: 1.2em; }
-.ticket-info { padding: 10px; background: #111; color: #fff; }
+.ticket-info { padding: 10px; background: #222; color: #fff; }
 
-.logo { width: 100% ;}
+.logo { width: 100%; }

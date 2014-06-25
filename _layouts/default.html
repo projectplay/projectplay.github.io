@@ -15,56 +15,52 @@
 	<link rel="stylesheet" href="/css/main.css">
 </head>
 
-<body id='front'>
-
+<body>
 	<div class="container">
 		<nav class="navbar" role="navigation">
-			<div class="container">
-				<div class='navbar'>
-					<ul class="nav navbar-nav nav-pills">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+
+
+			<ul class="nav navbar-nav nav-pills">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Main Menu <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="/#whenwhere">When is it?</a></li>
+						<li><a href="/#whattoplay">What can I play?</a></li>
+						<li><a href="/#exhibit">Can I help?</a></li>
+						<li><a href="/#what">What is this thing?</a></li>
 					</ul>
-				</div>
-				<div class="navbar">
-					<ul class='nav navbar-nav navbar-right'>
-						<li>
-							<a href='//facebook.com/projectplaylondon' target='_blank'>
-								<span class='fa-stack'>
-									<i class='fa fa-circle fa-stack-2x'></i>
-									<i class='fa fa-fw fa-stack-1x fa-inverse fa-facebook'></i>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href='//twitter.com/projectplayldn' target='_blank'>
-								<span class='fa-stack'>
-									<i class='fa fa-circle fa-stack-2x'></i>
-									<i class='fa fa-fw fa-twitter fa-stack-1x fa-inverse'></i>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href='//instagram.com/projectplayldn' target='_blank'>
-								<span class='fa-stack'>
-									<i class='fa fa-circle fa-stack-2x'></i>
-									<i class='fa fa-fw fa-stack-1x fa-inverse fa-instagram'></i>
-								</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+				</li>
+			</ul>
+
+
+			<ul class='nav navbar-nav navbar-right'>
+				<li>
+					<a href='//facebook.com/projectplaylondon' target='_blank'>
+						<span class='fa-stack'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<i class='fa fa-fw fa-stack-1x fa-inverse fa-facebook'></i>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href='//twitter.com/projectplayldn' target='_blank'>
+						<span class='fa-stack'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<i class='fa fa-fw fa-twitter fa-stack-1x fa-inverse'></i>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href='//instagram.com/projectplayldn' target='_blank'>
+						<span class='fa-stack'>
+							<i class='fa fa-circle fa-stack-2x'></i>
+							<i class='fa fa-fw fa-stack-1x fa-inverse fa-instagram'></i>
+						</span>
+					</a>
+				</li>
+			</ul>
+
+
 		</nav>
 
 		{{ content }}
@@ -81,5 +77,7 @@
 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script async src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>
