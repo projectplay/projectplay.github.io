@@ -3,14 +3,8 @@ footer { background: #283891; padding: 0 0 80px; }
 footer a, footer a:visited { color: white; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
 
-
 .container { padding: 0; background: #00AEEF; }
 .container .jumbotron { border-radius: 0 }
-
-.navbar { margin-bottom: 0; min-height: 40px; }
-.navbar .container { background: #00AEEF;}
-.nav>li>a:hover, .nav>li>a:focus { background: none;}
-.navbar-header a { color: black; font-weight: 400;}
 
 .stage_1 { background: #8DC63F; padding: 0 0 50px 0; }
 .stage_2 { background: #0E76BC; padding: 0 0 50px 0; }
@@ -28,6 +22,10 @@ ul.dropdown-menu { margin:0 0 0 5px; background: #222; }
 ul.dropdown-menu a { color: #fff; }
 
 .navbar-right { float: right; }
+.navbar-nav>li { float: left; }
+.nav>li>a:hover, .nav>li>a:focus { background: none;}
+.social-pills { float: right;}
+.social-pills>li>a { padding: 5px;}
 
 #front p { line-height: 1.3em; font-size: 1.2em; }
 .ticket-info { padding: 10px; background: #222; color: #fff; }
