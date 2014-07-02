@@ -24,8 +24,8 @@ ul.dropdown-menu a { color: #fff; }
 .navbar-right { float: right; }
 .navbar-nav>li { float: left; }
 .nav>li>a:hover, .nav>li>a:focus { background: none;}
-.social-pills { float: right;}
-.social-pills>li>a { padding: 5px;}
+.social-pills { float: right; font-size: 0.88em; }
+.social-pills>li>a { padding: 0.1em;}
 
 #front p { line-height: 1.3em; font-size: 1.2em; }
 .ticket-info { padding: 10px; background: #222; color: #fff; }
