@@ -33,6 +33,6 @@ ul.dropdown-menu a { color: #fff; }
 }
 
 #front p { line-height: 1.3em; font-size: 1.2em; }
-.ticket-info, .ticket-info a, .ticket-info a:visited { padding: 10px; background: #222; color: #fff; }
+.ticket-info, .ticket-info a, .ticket-info a:visited { padding: 10px; background: #222; color: #fff; text-decoration: underline;}
 
 .logo { width: 100%; }
