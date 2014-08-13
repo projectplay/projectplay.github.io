@@ -19,17 +19,17 @@ div.front { color: white; font-size: 1.8em; }
 .front h1 { margin: 25px; }
 .front h3 { margin: 15px; }
 
-.dropdown .dropdown-toggle { background: #222; padding: 10px; margin: 5px 5px -5px 5px; }
+.dropdown .dropdown-toggle { background: #222; padding: 10px; margin: 5px 5px -5px 5px; border: 1px solid #00AEEF; }
 .dropdown .dropdown-toggle:hover, .dropdown .dropdown-toggle:focus { background: #222; color: #fff; }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus { background: #222; color: #fff; }
-ul.dropdown-menu { margin:0 0 0 5px; background: #222; }
+ul.dropdown-menu { margin:0 0 0 5px; background: #222; border: 1px solid #00AEEF; }
 ul.dropdown-menu a { color: #fff; }
 
 .navbar-right { float: right; }
 .navbar-nav>li { float: left; }
 .nav>li>a:hover, .nav>li>a:focus { background: none;}
 
-.social-pills>li>a { padding: 0.1em;}
+.social-pills>li>a { padding: 0.1em; color: #00AEEF; text-shadow: none;}
 
 .social-pills { float: right; font-size: 0.7em; }
 @media (min-width: 768px){
