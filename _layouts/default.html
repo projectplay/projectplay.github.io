@@ -97,6 +97,26 @@
 
 		ga('create', 'UA-53720714-1', 'auto');
 		ga('send', 'pageview');
+
+
+		$(function(){
+			$('a[href*=#]:not([href=#])').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+				       || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (true) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 700);
+					return false;
+				}
+			}
+			});
+		})
+
+
 	</script>
 
 </body>
