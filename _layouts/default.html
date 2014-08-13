@@ -17,59 +17,59 @@
 
 <body>
 	<div class="container">
-		<nav class="" role="navigation">
+		<nav class="navbar-fixed-top" role="navigation">
+			<div class="container" style="background: none;">
+				<div class="col-xs-6">
+					<ul class="nav navbar-nav nav-pills">
+						<li class="dropdown" id="mainmenu">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Main Menu <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#whenwhere">When is it?</a></li>
+								<li><a href="#whattoplay">What can I play?</a></li>
+								<li><a href="#exhibit">Can I help?</a></li>
+								<li><a href="#what">What is this thing?</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 
-			<div class="col-xs-6">
-				<ul class="nav navbar-nav nav-pills">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Main Menu <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="/#whenwhere">When is it?</a></li>
-							<li><a href="/#whattoplay">What can I play?</a></li>
-							<li><a href="/#exhibit">Can I help?</a></li>
-							<li><a href="/#what">What is this thing?</a></li>
-						</ul>
-					</li>
-				</ul>
+				<div class="col-xs-6">
+					<ul class='nav navbar-nav social-pills'>
+						<li>
+							<a href='mailto:greg@projectplay.ca'>
+								<span class='fa-stack fa-2x'>
+									<i class='fa fa-circle fa-stack-2x'></i>
+									<i class='fa fa-fw fa-stack-1x fa-inverse fa-envelope-o'></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href='//facebook.com/projectplaylondon' target='_blank'>
+								<span class='fa-stack fa-2x'>
+									<i class='fa fa-circle fa-stack-2x'></i>
+									<i class='fa fa-fw fa-stack-1x fa-inverse fa-facebook'></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href='//twitter.com/projectplayldn' target='_blank'>
+								<span class='fa-stack fa-2x'>
+									<i class='fa fa-circle fa-stack-2x'></i>
+									<i class='fa fa-fw fa-twitter fa-stack-1x fa-inverse'></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href='//instagram.com/projectplayldn' target='_blank'>
+								<span class='fa-stack fa-2x'>
+									<i class='fa fa-circle fa-stack-2x'></i>
+									<i class='fa fa-fw fa-stack-1x fa-inverse fa-instagram'></i>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-
-			<div class="col-xs-6">
-				<ul class='nav navbar-nav social-pills'>
-					<li>
-						<a href='mailto:greg@projectplay.ca'>
-							<span class='fa-stack fa-2x'>
-								<i class='fa fa-circle fa-stack-2x'></i>
-								<i class='fa fa-fw fa-stack-1x fa-inverse fa-envelope-o'></i>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href='//facebook.com/projectplaylondon' target='_blank'>
-							<span class='fa-stack fa-2x'>
-								<i class='fa fa-circle fa-stack-2x'></i>
-								<i class='fa fa-fw fa-stack-1x fa-inverse fa-facebook'></i>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href='//twitter.com/projectplayldn' target='_blank'>
-							<span class='fa-stack fa-2x'>
-								<i class='fa fa-circle fa-stack-2x'></i>
-								<i class='fa fa-fw fa-twitter fa-stack-1x fa-inverse'></i>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href='//instagram.com/projectplayldn' target='_blank'>
-							<span class='fa-stack fa-2x'>
-								<i class='fa fa-circle fa-stack-2x'></i>
-								<i class='fa fa-fw fa-stack-1x fa-inverse fa-instagram'></i>
-							</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-
 		</nav>
 
 		{{ content }}
@@ -114,6 +114,11 @@
 				}
 			}
 			});
+
+
+			$('#mainmenu ul a').click(function(){
+				$('#mainmenu .dropdown-toggle').dropdown('toggle');
+			})
 		})
 
 
