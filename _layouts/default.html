@@ -16,28 +16,6 @@
 
 <body>
 	<div class="container">
-		<nav class="navbar-fixed-top" role="navigation">
-			<div class="container" style="background: none;">
-				<div class="col-xs-6">
-					<ul class="nav nav-pills">
-						<li class="dropdown" id="mainmenu">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Main Menu <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="/#whenwhere">When is it?</a></li>
-								<li><a href="/#whattoplay">What can I play?</a></li>
-								<li><a href="/#exhibit">Can I help?</a></li>
-								<li><a href="/#what">What is this thing?</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-
-				<div class="col-xs-6">
-					{% include social_nav.html %}
-				</div>
-			</div>
-		</nav>
-
 		{{ content }}
 
 		<footer>
@@ -50,8 +28,8 @@
 				<small><p>Come and game for community on November 23!</p></small>
 			</div>
 		</footer>
-		
 	</div>
+	
 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script async src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
