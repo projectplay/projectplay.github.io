@@ -6,14 +6,14 @@ footer a:hover { color: white; text-decoration: underline; }
 .container { padding: 0; background: #00AEEF; }
 .container .jumbotron { border-radius: 0 }
 
-.stage_1 { background: #8DC63F; padding: 0 0 50px 0; }
-.stage_2 { background: #0E76BC; padding: 0 0 50px 0; }
-.stage_3 { background: #ED1D56; padding: 0 0 50px 0; }
-.stage_3 ul {margin: 0; padding: 0;}
-.stage_3 li{list-style: none;}
-.stage_3 a { color: #0AF;}
+.poly_1 { background: #8DC63F; padding: 0 0 50px 0; }
+.poly_2 { background: #0E76BC; padding: 0 0 50px 0; }
+.poly_3 { background: #ED1D56; padding: 0 0 50px 0; }
+.poly_3 ul {margin: 0; padding: 0;}
+.poly_3 li{list-style: none;}
+.poly_3 a { color: #0AF;}
 
-.stage_4 { background: #17ABB4; padding: 0 0 50px 0; }
+.poly_4 { background: #17ABB4; padding: 0 0 50px 0; }
 
 div.front { color: white; font-size: 1.8em; }
 .front h1 { margin: 25px; }
