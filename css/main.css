@@ -4,7 +4,7 @@ footer a, footer a:visited { color: white; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
 
 .container { padding: 0; background: #00AEEF; }
-.container .jumbotron { border-radius: 0 }
+.container .tophat { padding: 70px 0 0 0;}
 
 .poly_1 { background: #8DC63F; padding: 0 0 50px 0; }
 .poly_2 { background: #0E76BC; padding: 0 0 50px 0; }
@@ -12,7 +12,6 @@ footer a:hover { color: white; text-decoration: underline; }
 .poly_3 ul {margin: 0; padding: 0;}
 .poly_3 li{list-style: none;}
 .poly_3 a { color: #0AF;}
-
 .poly_4 { background: #17ABB4; padding: 0 0 50px 0; }
 
 div.front { color: white; font-size: 1.8em; }
