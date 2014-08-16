@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ page.title }}</title>
 
-
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -24,50 +23,17 @@
 						<li class="dropdown" id="mainmenu">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Main Menu <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="#whenwhere">When is it?</a></li>
-								<li><a href="#whattoplay">What can I play?</a></li>
-								<li><a href="#exhibit">Can I help?</a></li>
-								<li><a href="#what">What is this thing?</a></li>
+								<li><a href="/#whenwhere">When is it?</a></li>
+								<li><a href="/#whattoplay">What can I play?</a></li>
+								<li><a href="/#exhibit">Can I help?</a></li>
+								<li><a href="/#what">What is this thing?</a></li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 
 				<div class="col-xs-6">
-					<ul class='nav navbar-nav social-pills'>
-						<li>
-							<a href='mailto:greg@projectplay.ca'>
-								<span class='fa-stack fa-2x'>
-									<i class='fa fa-circle fa-stack-2x'></i>
-									<i class='fa fa-fw fa-stack-1x fa-inverse fa-envelope-o'></i>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href='//facebook.com/projectplaylondon' target='_blank'>
-								<span class='fa-stack fa-2x'>
-									<i class='fa fa-circle fa-stack-2x'></i>
-									<i class='fa fa-fw fa-stack-1x fa-inverse fa-facebook'></i>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href='//twitter.com/projectplayldn' target='_blank'>
-								<span class='fa-stack fa-2x'>
-									<i class='fa fa-circle fa-stack-2x'></i>
-									<i class='fa fa-fw fa-twitter fa-stack-1x fa-inverse'></i>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href='//instagram.com/projectplayldn' target='_blank'>
-								<span class='fa-stack fa-2x'>
-									<i class='fa fa-circle fa-stack-2x'></i>
-									<i class='fa fa-fw fa-stack-1x fa-inverse fa-instagram'></i>
-								</span>
-							</a>
-						</li>
-					</ul>
+					{% include social_nav.html %}
 				</div>
 			</div>
 		</nav>
@@ -84,45 +50,13 @@
 				<small><p>Come and game for community on November 23!</p></small>
 			</div>
 		</footer>
+		
 	</div>
 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script async src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-53720714-1', 'auto');
-		ga('send', 'pageview');
-
-
-		$(function(){
-			$('a[href*=#]:not([href=#])').click(function () {
-				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-				       || location.hostname == this.hostname) {
-
-				var target = $(this.hash);
-				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-				if (true) {
-					$('html,body').animate({
-						scrollTop: target.offset().top
-					}, 700);
-					return false;
-				}
-			}
-			});
-
-
-			$('#mainmenu ul a').click(function(){
-				$('#mainmenu .dropdown-toggle').dropdown('toggle');
-			})
-		})
-
-
-	</script>
+	{% include analytics.html %}
 
 </body>
 </html>
