@@ -11,8 +11,7 @@ footer a:hover { color: white; text-decoration: underline; }
 .poly_3 ul {margin: 0; padding: 0;}
 .poly_3 li{list-style: none;}
 .poly_3 a { color: #0AF;}
-.poly_4 { background: #17ABB4; padding: 0 0 50px 0; }
-.poly_4 a { color: #283891}
+.poly_4 { background: #17ABB4; padding: 0 0 50px 0; color: #fff; }
 
 a.nav1 { color: #FEF301 !important; }
 .nav2{ color: #3AB54A !important; }
@@ -46,5 +45,6 @@ ul.dropdown-menu a { color: #fff; }
 #front p { line-height: 1.3em; font-size: 1.2em; }
 
 .ticket-info, .ticket-info a, .ticket-info a:visited { padding: 10px; background: #222; color: #fff; text-decoration: underline;}
+.linkbox { padding: 10px; background: #222; color: #fff; text-decoration: underline; margin: 10px 0; display: inline-block; }
 
 .logo { width: 100%; }
