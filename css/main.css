@@ -3,7 +3,7 @@ footer { background: #283891; padding: 0 0 80px; }
 footer a, footer a:visited { color: white; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
 
-a, a:visited { color: #222; }
+a, a:visited { color: #222; text-decoration: underline;  }
 
 .content { padding: 0; background: #00AEEF; }
 
