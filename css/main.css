@@ -42,7 +42,7 @@ ul.dropdown-menu a { color: #fff; }
     .navbar-nav>li>a { padding: 6px; font-size: 13px; }
 }
 
-#front p { line-height: 1.3em; font-size: 1.2em; }
+footer p { line-height: 1.3em; font-size: 1.2em; color: #fff; }
 
 .ticket-info, .ticket-info a, .ticket-info a:visited { padding: 10px; background: #222; color: #fff; text-decoration: underline;}
 .linkbox { padding: 10px; background: #222; color: #fff; text-decoration: underline; margin: 10px 0; display: inline-block; }
