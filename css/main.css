@@ -1,4 +1,4 @@
-body { margin: 0px; background: #222; font-family: 'Muli', sans-serif; font-weight: 300; padding-top: 28px;  }
+body { margin: 0px; background: #222; font-family: 'Muli', sans-serif; font-weight: 300; padding-top: 28px; }
 footer { background: #283891; padding: 0 0 80px; }
 footer a, footer a:visited { color: white; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
@@ -22,6 +22,8 @@ a.nav4{ color: #ED145B !important; }
 a.nav5{ color: #81CA9D !important; }
 
 div.content { color: white; font-size: 1.8em; }
+div.wrap { font-size: 1.3em; }
+
 .content h1 { margin: 25px; }
 .content h3 { margin: 15px; }
 
