@@ -3,7 +3,7 @@ footer { background: #283891; padding: 0 0 80px; }
 footer a, footer a:visited { color: white; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
 
-a, a:visited { color: #222; text-decoration: underline;  }
+a, a:visited, a:hover { color: #222; text-decoration: underline;  }
 
 .content { padding: 0; background: #00AEEF; }
 
@@ -12,7 +12,7 @@ a, a:visited { color: #222; text-decoration: underline;  }
 .poly_3 { background: #ED1D56; padding: 0 0 50px 0; }
 .poly_3 ul {margin: 0; padding: 0;}
 .poly_3 li{list-style: none;}
-.poly_3 a { color: #0AF;}
+.poly_3 a { }
 .poly_4 { background: #17ABB4; padding: 0 0 50px 0; color: #fff; }
 
 a.nav1 { color: #FEF301 !important; }
