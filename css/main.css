@@ -3,6 +3,8 @@ footer { background: #283891; padding: 0 0 80px; }
 footer a, footer a:visited { color: white; text-decoration: none; }
 footer a:hover { color: white; text-decoration: underline; }
 
+button { color : #fff; }
+
 a, a:visited, a:hover { color: #222; text-decoration: underline;  }
 
 .content { padding: 0; background: #00AEEF;  }
@@ -16,10 +18,10 @@ a, a:visited, a:hover { color: #222; text-decoration: underline;  }
 .poly_4 { background: #17ABB4; padding: 0 0 50px 0; }
 
 a.nav1 { color: #FEF301 !important; }
-a.nav2{ color: #3AB54A !important; }
-a.nav3{ color: #00AEED !important; }
-a.nav4{ color: #ED145B !important; }
-a.nav5{ color: #81CA9D !important; }
+a.nav2 { color: #3AB54A !important; }
+a.nav3 { color: #00AEED !important; }
+a.nav4 { color: #ED145B !important; }
+a.nav5 { color: #81CA9D !important; }
 
 div.content { color: white; font-size: 1.8em; }
 div.wrap { font-size: 1.3em; color: #fff;}
