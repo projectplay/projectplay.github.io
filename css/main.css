@@ -14,7 +14,9 @@ a, a:visited, a:hover { color: #222; text-decoration: underline;  }
 .poly_3 { background: #ED1D56; padding: 0 0 50px 0; }
 .poly_3 ul {margin: 0; padding: 0;}
 .poly_3 li{list-style: none;}
-.poly_3 a { }
+.ploy_3 .table-striped { border-color: #851537; }
+.poly_3 .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th { background-color: #851537; }
+
 .poly_4 { background: #17ABB4; padding: 0 0 50px 0; }
 .poly_single { padding: 0;}
 
