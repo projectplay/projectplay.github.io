@@ -14,7 +14,9 @@ a, a:visited, a:hover { color: #222; text-decoration: underline;  }
 .poly_3 { background: #ED1D56; padding: 0 0 50px 0; }
 .poly_3 ul {margin: 0; padding: 0;}
 .poly_3 li{list-style: none;}
-.poly_3 a { }
+.ploy_3 .table-striped { border-color: #851537; }
+.poly_3 .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th { background-color: #851537; }
+
 .poly_4 { background: #17ABB4; padding: 0 0 50px 0; }
 .poly_single { padding: 0;}
 
@@ -51,7 +53,7 @@ ul.dropdown-menu a { color: #fff; }
 
 footer p { line-height: 1.3em; font-size: 1.2em; color: #fff; }
 
-.ticket-info, .ticket-info a, .ticket-info a:visited { padding: 10px; background: #222; color: #fff; text-decoration: underline;}
+.ticket-info, .ticket-info a, .ticket-info a:visited { padding: 10px; background: #222; color: #fff; text-decoration: underline; line-height: 1.8em;}
 .linkbox, .linkbox:visited { padding: 10px; background: #222; color: #fff; text-decoration: underline; margin: 10px 0; display: inline-block; }
 
 .logo { width: 101%; }
