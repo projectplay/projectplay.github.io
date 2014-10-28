@@ -57,3 +57,7 @@ footer p { line-height: 1.3em; font-size: 1.2em; color: #fff; }
 .linkbox, .linkbox:visited { padding: 10px; background: #222; color: #fff; text-decoration: underline; margin: 10px 0; display: inline-block; }
 
 .logo { width: 101%; }
+
+.huge { font-size: 3em; line-height: 0.8em; }
+
+.poly_single * + * { margin: 5px 0;}
