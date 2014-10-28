@@ -58,6 +58,6 @@ footer p { line-height: 1.3em; font-size: 1.2em; color: #fff; }
 
 .logo { width: 101%; }
 
-.huge { font-size: 3em; line-height: 0.8em; }
+.huge { font-size: 3em; line-height: 0.8em; font-weight: bold; }
 
-.poly_single * + * { margin: 5px 0;}
+.poly_single * + * { margin: 10px 0;}
