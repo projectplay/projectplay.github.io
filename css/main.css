@@ -60,4 +60,4 @@ footer p { line-height: 1.3em; font-size: 1.2em; color: #fff; }
 
 .huge { font-size: 3em; line-height: 0.8em; font-weight: bold; }
 
-.poly_single * + * { margin: 10px 0;}
+.poly_single * + * { margin-top: 12px; }
