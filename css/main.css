@@ -7,9 +7,10 @@ button { color : #fff; }
 
 a, a:visited, a:hover { color: #222; text-decoration: underline;  }
 
-.content { padding: 0; background: #00AEEF;  }
+.container { padding: 0; }
+.content { padding: 10px 0; background: #00AEEF;  }
 
-.poly_1 { background: #8DC63F; padding: 0 0 50px 0; }
+.poly_1 { background: #8DC63F; padding: 0; }
 .poly_2 { background: #0E76BC; padding: 0 0 50px 0; }
 .poly_3 { background: #ED1D56; padding: 0 0 50px 0; }
 .poly_3 ul {margin: 0; padding: 0;}
